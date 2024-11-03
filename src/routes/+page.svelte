@@ -1,5 +1,6 @@
 <script>
-  import { HeroSection } from '$components';
+  import { HeroSection, ChapterPreview } from '$components';
 </script>
 
 <HeroSection />
+<ChapterPreview />

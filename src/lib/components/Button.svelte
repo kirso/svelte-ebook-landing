@@ -1,7 +1,14 @@
+<script>
+  let { children, ...props } = $props();
+</script>
+
+<button {...props}>{@render children()}</button>
+
 <style>
   button {
     background-color: black;
     color: white;
+    margin-top: 20px;
     padding: 20px 24px;
     font-weight: normal;
     font-size: 22px;
