@@ -23,6 +23,10 @@
   },
   "type": "module",
   "dependencies": {
-    "@sveltejs/enhanced-img": "^0.4.0"
+    "@stripe/stripe-js": "^4.9.0",
+    "@sveltejs/enhanced-img": "^0.4.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-svelte": "^3.2.7",
+    "stripe": "^17.3.1"
   }
 }
