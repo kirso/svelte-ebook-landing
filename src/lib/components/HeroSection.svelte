@@ -2,6 +2,8 @@
   import bookCover from '$assets/book_cover.png';
   import phoneCover from '$assets/phone_cover.png';
   import Button from './Button.svelte';
+
+  let { children } = $props();
 </script>
 
 <section class="hero">
@@ -14,6 +16,9 @@
     </div>
   </div>
   <div class="text-center hero-text white">
+    {#if children}
+    {@render children()}
+    {:else}
     <h1>THIS EBOOK WILL SAVE YOU MONEY</h1>
     <p class="light-grey">
       I moved to Singapore seven years ago. The process was painful and
@@ -22,6 +27,7 @@
       wrote this e-book, to tell you how I did it. No bullshit, no stress.'
     </p>
     <Button>Purchase e-book for $20</Button>
+    {/if}
   </div>
 </section>
 
