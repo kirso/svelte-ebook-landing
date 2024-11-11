@@ -19,6 +19,9 @@ const config = {
       $assets: 'src/assets',
       $icons: 'src/assets/icons',
     },
+    csrf: {
+      checkOrigin: false,
+    },
   },
 };
 
