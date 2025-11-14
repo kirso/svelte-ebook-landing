@@ -24,7 +24,7 @@
   "type": "module",
   "dependencies": {
     "@stripe/stripe-js": "^4.9.0",
-    "@sveltejs/enhanced-img": "^0.4.0",
+    "@sveltejs/enhanced-img": "^0.8.4",
     "prettier": "^3.3.3",
     "prettier-plugin-svelte": "^3.2.7",
     "resend": "^4.0.1-alpha.0",
